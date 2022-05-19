@@ -1,0 +1,292 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <meta name="theme-color" content="#ff0061">
+    <title>Herawi Bookstore</title>
+</head>
+<body>
+    <!-- navabr and header -->
+    <section class="navbar ">
+        <nav>
+            <ul class="nav-item">
+                <li><a href="">Home</a></li>
+                <li class="drop-down position-relative"><a href="">Bookstore <i class="bi bi-angle-down"></i></a>
+                    <ul class="drop-down-item">
+                        <li><a href=""><i class="bi bi-calendar-date"></i> Historian</a></li>
+                        <li><a href=""><i class="bi bi-laptop"></i>Computer science</a></li>
+                        <li><a href=""><i class="bi bi-people"></i> Social</a></li>
+                        <li><a href=""><i class="bi bi-book"></i>Islamic</a></li>
+                        <li><a href=""><i class="bi bi-pencil"></i>Language</a></li>
+                    </ul>
+                </li>
+                <li><a href="">VIP</a></li>
+                <li><a href="">Online Reading</a></li>
+                <li><a href="">contact</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+        <div class="social-media">
+            <ul class="social-list">
+                <li class="seachbar"><a href="" class="bi bi-search "></a>
+                    <input type="text" class="search-form">
+                </li>
+                <li><a href="" class="bi bi-facebook"></a> </li>
+                <li><a href="" class="bi bi-twitter"></a></li>
+                <li><a href="" class="bi bi-instagram"></a></li>
+                <li><a href="" class="bi bi-pinterest"></a></li>
+                <li><a href="" class="bi bi-shopping-cart"></a></li>
+                <li><a  class="bi bi-box-arrow-in-right" id="login"></a></li>
+            </ul>
+            <button class="dark-bright-btn" id="darkmode">
+                <span class="bi bi-moon-o myhover">dark</span>
+            </button>
+        </div> 
+    </section>
+    <section class="header">
+        <h1>Herawi Bookstore</h1>
+    </section>
+    <!-- end navbar and header -->
+
+
+    <!-- loader animation -->
+    <div class="loading">
+        <div class="load-loop"></div>
+    </div>
+
+    <div class="loading-container">
+        <div class="rotate">
+            <div class="loader">
+                <span style="--i:0;"></span>
+                <span style="--i:1;"></span>
+                <span style="--i:2;"></span>
+                <span style="--i:3;"></span>
+            </div>
+        </div>
+    </div
+    
+    <!-- end loader aniamtion -->
+    <!-- scroll top -->
+    <div class="scroll-top">
+        <i class="bi bi-chevron-up"></i>
+    </div>
+    <!-- end scroll top -->
+
+    <!-- slider -->
+    <section class="slider">
+        <div class="container">
+            <span class="next bi bi-chevron-left" id="next" ></span>
+            <div class="container fade" id="content1">
+                <div class="image" id="sliderImg1"></div>
+                <div class="caption text-align-center">
+                    <h3 id="sliderSub1">History</h3>
+                    <h2 id="sliderTit1">Afghans  unfinished war history</h2>
+                    <div class="underline"></div>
+                </div>
+            </div>
+            <div class="container fade" id="content2">
+                <div class="image" id="sliderImg2"></div>
+                <div class="caption text-align-center">
+                    <h3 id="sliderSub2">History</h3>
+                    <h2 id="sliderTit2">Afghans  unfinished war history</h2>
+                    <div class="underline"></div>
+                </div>
+            </div>
+            
+            <button class="btn"><i class="bi bi-bookmark"></i> read article</button> 
+            <form action="" class="search-article">
+                <input type="text" class="search-input" placeholder="find your article...">
+                <button type="submit"><i class="bi bi-search"></i></button>   
+            </form>
+            <span class="previous bi bi-chevron-right" id="prev"></span>
+            
+        </div>
+    </section>
+    <!-- end slider -->
+
+    <!-- best seller -->
+    <div class="best-book">
+        <div class="best-seller">
+            <div class="features">
+                <i class="bi bi-lightning"></i>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde recusandae nihil cupiditate eius, eaque, itaque numquam aliquid exercitationem pariatur.
+                </p>
+            </div>
+            <div class="features">
+                <i class="bi bi-clock"></i>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde recusandae nihil cupiditate eius, eaque, itaque numquam aliquid exercitationem pariatur.
+                </p>
+            </div>
+            <div class="features">
+                <i class="bi bi-search"></i>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde recusandae nihil cupiditate eius, eaque, itaque numquam aliquid exercitationem pariatur.
+                </p>
+            </div>
+        </div>
+        
+    </div>
+    <section class="books">
+        <h3>Books Bestsellers</h3>
+        <div class="book-card-container">
+            <div class="book-card position-relative">
+                <div class="card-cover">
+                    <button>Buy Now</button>
+                </div>
+                <div class="book-img mg-auto position-relative">
+                    <img src="image/10.jpg" alt="">
+                    <div class="new-mark">
+                        <span>new</span>
+                    </div>
+                </div>
+                
+                <div class="card-caption">
+                    <h5>HTML AND CSS</h5>
+                    <span class="author">by: <a class="text-decoration-none" href="">John ducket</a></span>
+                    <p class="price">$20</p>
+                </div>
+            </div>
+            <div class="book-card position-relative">
+                <div class="card-cover">
+                    <button>Buy Now</button>
+                </div>
+                <div class="book-img mg-auto position-relative">
+                    <img src="image/12.jpg" alt="">
+
+                </div>
+                
+                <div class="card-caption">
+                    <h5>Make It Happen</h5>
+                    <span class="author">by: <a class="text-decoration-none" href="">John ducket</a></span>
+                    <p class="price">$15.30</p>
+                </div>
+            </div>
+            <div class="book-card position-relative">
+                <div class="card-cover">
+                    <button>Buy Now</button>
+                </div>
+                <div class="book-img mg-auto position-relative">
+                    <img src="image/11.jpg" alt="">
+                </div>
+                
+                <div class="card-caption">
+                    <h5>Generic Algorithms in Java</h5>
+                    <span class="author">by: <a class="text-decoration-none" href="">John ducket</a></span>
+                    <p class="price">$15.30</p>
+                </div>
+            </div>
+            <div class="book-card position-relative">
+                <div class="card-cover">
+                    <button>Buy Now</button>
+                </div>
+                <div class="book-img mg-auto position-relative">
+                    <img src="image/9.jpg" alt="">
+                    <div class="new-mark">
+                        <span>new</span>
+                    </div>
+                </div>
+                
+                <div class="card-caption">
+                    <h5>Clean Code</h5>
+                    <span class="author">by: <a class="text-decoration-none" href="">John ducket</a></span>
+                    <p class="price">$15.30</p>
+                </div>
+            </div>
+            <div class="book-card position-relative">
+                <div class="card-cover">
+                    <button>Buy Now</button>
+                </div>
+                <div class="book-img mg-auto position-relative">
+                    <img src="image/9.jpg" alt="">
+                    <div class="new-mark">
+                        <span>new</span>
+                    </div>
+                </div>
+                
+                <div class="card-caption">
+                    <h5>Clean Code</h5>
+                    <span class="author">by: <a class="text-decoration-none" href="">John ducket</a></span>
+                    <p class="price">$15.30</p>
+                </div>
+            </div> 
+        </div>
+        
+        <button class="btn" id="btn_viewmore">View More</button>
+    </section>
+    <!--end best seller -->
+    <!-- login and sign up modal -->
+    <section class="modal">
+        <div class="container-modal">
+            <div class="btn-close">
+                <i class="bi bi-x"></i>
+            </div>
+            <h3>Login</h3>
+            <form action="login">
+                <input type="text" name="username" placeholder="username" required>
+                <input type="password" placeholder="password" name="password" required>
+                <div class="remember">
+                    <input type="checkbox"  name="remember"><span>remember me</span>
+                </div>
+                <button type="submit" ><i class="bi bi-sign-in"></i> login </button>
+            
+            </form>
+            <div class="third-party">
+                <span>Newcomer? register now </span>
+                <button style="--i: #08a0e7;" id="btnsignup">Sign up</i></button>
+                <h4>use a third party</h4>
+                <button style="--i: #085ee7;">login with <i class="bi bi-facebook"></i></button>
+                <button style="--i: #f50707;">login with <i class="bi bi-google-plus"></i></button>
+                <button style="--i: #03bd51;">login with <i class="bi bi-linkedin"></i></button>
+            </div>
+        </div>
+        <div class="container-modal" id="signup">
+            <div class="btn-close" id="closeSignup">
+                <i class="bi bi-x"></i>
+            </div>
+            <h3>Sign up</h3>
+            <form action="signup" >
+                <input type="text" name="name" placeholder="name" required>
+                <input type="text" name="lastname" placeholder="last name" required>
+                <input type="number" name="age" placeholder="age" required>
+                <input type="email" name="email" placeholder="email" required>
+                <input type="password" placeholder="password" name="password" required>
+                <input type="password" placeholder="repeat password" name="password" required>
+                <div class="remember">
+                    <input type="checkbox"  name="remember"><span>i'm not robot</span>
+                </div>
+                <button type="submit" ><i class="bi bi-sign-in"></i> sign up </button>
+            </form>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footer-header">
+            <h3>Herawi bookstore</h3>
+            <ul class="social-networks">
+                <li><a href="" class="text-decoration-none" style="--i:#f00808;"><i class="bi bi-pinterest"></i></a></li>
+                <li><a href="" class="text-decoration-none" style="--i:#6f07f6;"><i class="bi bi-google-plus"></i></a></li>
+                <li><a href="" class="text-decoration-none" style="--i:#f08b08;"><i class="bi bi-linkedin"></i></a></li>
+                <li><a href="" class="text-decoration-none" style="--i:#086cf0;"><i class="bi bi-facebook"></i></a></li>
+                <li><a href="" class="text-decoration-none" style="--i:#fb0707;"><i class="bi bi-youtube-play"></i></a></li>
+                <li><a href="" class="text-decoration-none" style="--i:#08d5f0;"><i class="bi bi-twitter"></i></a></li>
+                <li><a href="" class="text-decoration-none" style="--i:#8df812;"><i class="bi bi-github"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            copyright ©2022 <a href="" class="text-decoration-none">Herawi Bookstore</a>. All rights reserved
+        </div>
+    </footer>
+        
+    <script>
+        
+    </script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
